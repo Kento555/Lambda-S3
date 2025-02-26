@@ -19,17 +19,18 @@
    s3:PutObject – Allows Lambda to upload objects to the bucket.
    s3:ListBucket (optional) – Allows checking if the file exists before uploading.
 
-Execution role:  
-![image](https://github.com/user-attachments/assets/b367774b-26e3-4af7-b492-0c6598275468)  
 
-![image](https://github.com/user-attachments/assets/acceace5-426d-4b68-898a-113e6c67ef0a)
+   Execution role:  
+   ![image](https://github.com/user-attachments/assets/b367774b-26e3-4af7-b492-0c6598275468)  
 
-![image](https://github.com/user-attachments/assets/4603e04e-397d-498e-b0e7-51bba8e59eae)
+   ![image](https://github.com/user-attachments/assets/acceace5-426d-4b68-898a-113e6c67ef0a)
 
-Resource based policy:  
-![image](https://github.com/user-attachments/assets/48797b43-aea8-41bd-a73d-2a25869f5c88)  
+   ![image](https://github.com/user-attachments/assets/4603e04e-397d-498e-b0e7-51bba8e59eae)
 
-![image](https://github.com/user-attachments/assets/a4c35593-8f2b-4db0-91ff-801383b6d48b) 
+   Resource based policy:  
+   ![image](https://github.com/user-attachments/assets/48797b43-aea8-41bd-a73d-2a25869f5c88)  
+
+   ![image](https://github.com/user-attachments/assets/a4c35593-8f2b-4db0-91ff-801383b6d48b) 
 
 
 
