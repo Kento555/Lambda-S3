@@ -20,7 +20,8 @@
    s3:ListBucket (optional) – Allows checking if the file exists before uploading.
 
 
-   Execution role:  
+   Execution role:
+   
    ![image](https://github.com/user-attachments/assets/b367774b-26e3-4af7-b492-0c6598275468)  
 
    ![image](https://github.com/user-attachments/assets/acceace5-426d-4b68-898a-113e6c67ef0a)
@@ -32,7 +33,8 @@
 
    ![image](https://github.com/user-attachments/assets/a4c35593-8f2b-4db0-91ff-801383b6d48b)
 
-   Additional Policy: allows the Lambda function to upload objects (PutObject) into the specified bucket.  
+   Additional Policy: allows the Lambda function to upload objects (PutObject) into the specified bucket.
+   
    ![image](https://github.com/user-attachments/assets/73c726c1-bcb2-44a7-a244-cdf1c3962f03)
 
 
