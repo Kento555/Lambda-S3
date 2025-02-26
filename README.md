@@ -20,7 +20,10 @@ Execution role:
 ![image](https://github.com/user-attachments/assets/4603e04e-397d-498e-b0e7-51bba8e59eae)
 
 Resource based policy:  
-![image](https://github.com/user-attachments/assets/48797b43-aea8-41bd-a73d-2a25869f5c88)
+![image](https://github.com/user-attachments/assets/48797b43-aea8-41bd-a73d-2a25869f5c88)  
+
+![image](https://github.com/user-attachments/assets/a4c35593-8f2b-4db0-91ff-801383b6d48b) 
+
 
 
 
