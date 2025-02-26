@@ -1,10 +1,16 @@
 # Lambda-S3
-What is the purpose of the execution role on the Lambda function?  
+1. What is the purpose of the execution role on the Lambda function?  
 The execution role is an IAM role that grants Lambda permissions to interact with AWS services. Specifically, in this case:  
 
 It allows Lambda to read the event data from S3.  
 It may grant access to write logs to Amazon CloudWatch Logs for debugging and monitoring.  
 It ensures the function operates within the least privilege principle.  
+
+2. What is the purpose of the resource-based policy on the Lambda function?
+A resource-based policy defines who (which AWS services, accounts, or users) can invoke the Lambda function.
+
+In this case, when you set up S3 event notifications, AWS automatically adds a resource-based policy to allow the S3 bucket to invoke the Lambda function.
+This ensures that only the configured S3 bucket can trigger the function, preventing unauthorized access.
 
 Execution role:  
 ![image](https://github.com/user-attachments/assets/b367774b-26e3-4af7-b492-0c6598275468)  
