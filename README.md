@@ -30,7 +30,11 @@
    Resource based policy:  
    ![image](https://github.com/user-attachments/assets/48797b43-aea8-41bd-a73d-2a25869f5c88)  
 
-   ![image](https://github.com/user-attachments/assets/a4c35593-8f2b-4db0-91ff-801383b6d48b) 
+   ![image](https://github.com/user-attachments/assets/a4c35593-8f2b-4db0-91ff-801383b6d48b)
+
+   Additional Policy: allows the Lambda function to upload objects (PutObject) into the specified bucket.  
+   ![image](https://github.com/user-attachments/assets/73c726c1-bcb2-44a7-a244-cdf1c3962f03)
+
 
 
 
