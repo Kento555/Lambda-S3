@@ -12,6 +12,8 @@ It ensures the function operates within the least privilege principle.
 
 ![image](https://github.com/user-attachments/assets/4603e04e-397d-498e-b0e7-51bba8e59eae)
 
+Resource based policy:  
+![image](https://github.com/user-attachments/assets/48797b43-aea8-41bd-a73d-2a25869f5c88)
 
 
 
