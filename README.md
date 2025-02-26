@@ -19,6 +19,10 @@
    s3:PutObject – Allows Lambda to upload objects to the bucket.
    s3:ListBucket (optional) – Allows checking if the file exists before uploading.
 
+4. What is the new resource-based policy that needs to be added (if any)?  
+   No additional resource-based policy is required unless another AWS service (like SNS, EventBridge, or another Lambda function) needs to invoke this Lambda function.  
+   However, if other AWS accounts or external services need to invoke the function, we may need to add permissions to allow that.  
+
 
    Execution role:
    
