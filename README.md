@@ -12,6 +12,13 @@
    In this case, when S3 event notifications is set up, AWS automatically adds a resource-based policy to allow the S3 bucket to invoke the Lambda function.
    This ensures that only the configured S3 bucket can trigger the function, preventing unauthorized access.
 
+3. If the function needs to upload a file into an S3 bucket, what updates are required?
+   Execution Role Update (IAM Policy for Lambda)
+   To allow the Lambda function to upload files to S3, the execution role needs the following permissions:
+
+   s3:PutObject – Allows Lambda to upload objects to the bucket.
+   s3:ListBucket (optional) – Allows checking if the file exists before uploading.
+
 Execution role:  
 ![image](https://github.com/user-attachments/assets/b367774b-26e3-4af7-b492-0c6598275468)  
 
