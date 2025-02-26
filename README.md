@@ -14,7 +14,7 @@
 
 4. If the function needs to upload a file into an S3 bucket, what updates are required?
    
-   Execution Role Update (IAM Policy for Lambda)
+   Update Execution Role (IAM Policy for Lambda)
    To allow the Lambda function to upload files to S3, the execution role needs the following permissions:
 
    s3:PutObject – Allows Lambda to upload objects to the bucket.
